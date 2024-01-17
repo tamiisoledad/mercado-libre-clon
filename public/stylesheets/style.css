@@ -6,3 +6,60 @@ body {
 a {
   color: #00B7FF;
 }
+header {
+  background-color: #FFe600;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+header nav {
+  display: flex;
+  margin: 15px;
+}
+.logo-img img {
+  width: 115px;
+}
+.buscador .barra-buscador input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 480px;
+    font-size: 35px;
+}
+.buscador .barra-buscador {
+  position: relative;
+}
+input {
+  padding: 15px;
+  padding-left: 30px;
+  border-radius: 5px 0 0 3px;
+  border: 0;
+  outline: none;
+}
+input::placeholder {
+  text-indent: 50px;
+}
+.texto-buscador {
+  padding: 10px;
+}
+button i{
+  padding: 10px;
+  position: absolute;
+  border: 0;
+  top: 0;
+  left: 3px;
+  bottom: 0;
+  font-size: 30px;
+  color: #6a6a6ae2;
+  margin: auto;
+  border-radius: 0 5px 5px 0;
+}
+.boton-menu {
+  font-size: 45px;
+  margin: 23px;
+}
+.carrito-compras i {
+  font-size: 40px;
+  margin: 25px;
+}
